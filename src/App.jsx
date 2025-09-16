@@ -24,7 +24,7 @@ function App() {
             <Project title="TrendTrack Portfolio Generator" description="A program that generates a stock portfolio using statistical analysis and trend following techniques." link="https://github.com/jmazeral/trendtrack" />
             <Project title="StegoStudy" description="A full stack website that uses OpenAI Whisper to analyse speech and provide real-time feedback to users" link="https://github.com/jmazeral/stegostudy" />
             <Project title="NBA MVP Predictor" description="A program built with Jupyter Notebook that scrapes basketball stats and uses machine learning to predict MVPs." link="https://github.com/jmazeral/NBA-MVP-Predictor-" />
-            <Project title="Personal Website" description="You are here!" link="javascript.void(0)" />
+            <Project title="Personal Website" description="You are here!" link="#" />
           </div>
         </div>
       case 'Work Experience':
@@ -48,7 +48,7 @@ function App() {
           <h1 className="text-2xl font-bold mb-4 mt-4">About This Site</h1>
           <p className="mb-2">Going into my second year of university, my personal website needed a SERIOUS makeover (just trust me, you'd say the same if you saw it), but I had no real ideas.</p>
           <p className="mb-2">As if a sign from god, I saw an Instagram Reel about the old internet and the Frutiger Aero design style, and it took me back to a better time.</p>
-          <p className="mb-2">The first computer I ever used ran Windows 7 and that thing was what introduced me to the world of computing, so we can think of this website as a tribute to that old thing. </p>
+          <p className="mb-2">The first computer I ever used ran Windows 7 and that was what introduced me to the world of computing, so we can think of this website as a tribute to that old thing. </p>
           <p className="mb-2">With that out of the way, here is some technical stuff:</p>
           <p className="mb-2">This site is built with React and styled with TailwindCSS and the <a href="https://khang-nd.github.io/7.css/#window">7.css</a> library. The icons in the navbar are from <a href="https://frutiger-aero.org/"> frutiger-aero.org</a>.</p>
           <p className="mb-2">Thank you for visiting!</p>
