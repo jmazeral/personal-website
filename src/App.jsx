@@ -11,7 +11,7 @@ function App() {
     switch (section) {
       case 'Home':
         return <div className="text-xl overflow-y-auto max-h-100 has-scrollbar">
-          <img src="https://r73.cooltext.com/rendered/cooltext491439840554534.gif" about='Justus Mazeral' className="mx-auto mb-4" />
+          <img src="src\assets\cooltext491508997827352.gif" about='Justus Mazeral' className="mx-auto mb-4" />
           <h1 className="text-2xl font-bold mb-4 mt-4">Welcome to My Personal Website</h1>
           <p className="mb-2">Hello! I'm Justus, a CS and Finance student at UWaterloo. This is my personal website where you can learn more about me, my projects, work experience, and how to contact me.</p>
           <p className="mb-2">Feel free to explore the different sections using the navigation bar above.</p>
