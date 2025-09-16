@@ -10,7 +10,7 @@ function App() {
   function renderContent() {
     switch (section) {
       case 'Home':
-        return <div className="text-xl overflow-y-auto max-h-100">
+        return <div className="text-xl overflow-y-auto max-h-100 has-scrollbar">
           <img src="https://r73.cooltext.com/rendered/cooltext491439840554534.gif" about='Justus Mazeral' className="mx-auto mb-4" />
           <h1 className="text-2xl font-bold mb-4 mt-4">Welcome to My Personal Website</h1>
           <p className="mb-2">Hello! I'm Justus, a CS and Finance student at UWaterloo. This is my personal website where you can learn more about me, my projects, work experience, and how to contact me.</p>
@@ -18,7 +18,7 @@ function App() {
           <p className="mb-2">Thank you for visiting!</p>
         </div>
       case 'Projects':
-        return <div className="text-xl overflow-y-auto max-h-100">
+        return <div className="text-xl overflow-y-auto max-h-100 has-scrollbar">
           <h1 className="text-2xl font-bold mb-4 mt-4">My Projects</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Project title="TrendTrack Portfolio Generator" description="A program that generates a stock portfolio using statistical analysis and trend following techniques." link="https://github.com/jmazeral/trendtrack" />
@@ -28,14 +28,14 @@ function App() {
           </div>
         </div>
       case 'Work Experience':
-        return <div className="text-xl overflow-y-auto max-h-100">
+        return <div className="text-xl overflow-y-auto max-h-100 has-scrollbar">
           <h1 className="text-2xl font-bold mb-4 mt-4">Work Experience</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Experience title="Data Analyst Intern" company="CAA Club Group" time="May 2025 - Aug 2025" description="Automated data workflows, created dashboards to improve reporting, converted questionnaires into virtual templates, developed comparison models to be included in due diligence reports"/>
           </div>
         </div>
       case 'Contact':
-        return <div className="text-xl overflow-y-auto max-h-100">
+        return <div className="text-xl overflow-y-auto max-h-100 has-scrollbar">
           <h1 className="text-2xl font-bold mb-4 mt-4">Contact Me</h1>
           <p className="mb-2">Feel free to reach out to me via email or connect with me on Linkedin or Github!</p>
           <ul className="list-disc list-inside">
@@ -44,7 +44,7 @@ function App() {
             <li>Github: <a href="https://github.com/jmazeral" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">github.com/jmazeral</a></li></ul>
         </div>
       case 'About this Site':
-        return <div className="text-xl overflow-y-auto max-h-100">
+        return <div className="text-xl overflow-y-auto max-h-100 has-scrollbar">
           <h1 className="text-2xl font-bold mb-4 mt-4">About This Site</h1>
           <p className="mb-2">Going into my second year of university, my personal website needed a SERIOUS makeover (just trust me, you'd say the same if you saw it), but I had no real ideas.</p>
           <p className="mb-2">As if a sign from god, I saw an Instagram Reel about the old internet and the Frutiger Aero design style, and it took me back to a better time.</p>
