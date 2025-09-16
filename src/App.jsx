@@ -25,8 +25,6 @@ function App() {
             <Project title="StegoStudy" description="A full stack website that uses OpenAI Whisper to analyse speech and provide real-time feedback to users" link="https://github.com/jmazeral/stegostudy" />
             <Project title="NBA MVP Predictor" description="A program built with Jupyter Notebook that scrapes basketball stats and uses machine learning to predict MVPs." link="https://github.com/jmazeral/NBA-MVP-Predictor-" />
             <Project title="Personal Website" description="You are here!" link="javascript.void(0)" />
-            <Project title="NBA MVP Predictor" description="A program built with Jupyter Notebook that scrapes basketball stats and uses machine learning to predict MVPs." link="https://github.com/jmazeral/NBA-MVP-Predictor-" />
-            <Project title="NBA MVP Predictor" description="A program built with Jupyter Notebook that scrapes basketball stats and uses machine learning to predict MVPs." link="https://github.com/jmazeral/NBA-MVP-Predictor-" />
           </div>
         </div>
       case 'Work Experience':
