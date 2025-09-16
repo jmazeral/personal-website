@@ -11,7 +11,7 @@ function App() {
     switch (section) {
       case 'Home':
         return <div className="text-xl overflow-y-auto max-h-100 has-scrollbar">
-          <img src="src\assets\cooltext491508997827352.gif" about='Justus Mazeral' className="mx-auto mb-4" />
+          <img src="https://images.cooltext.com/5740364.gif" about='Justus Mazeral' className="mx-auto mb-4" />
           <h1 className="text-2xl font-bold mb-4 mt-4">Welcome to My Personal Website</h1>
           <p className="mb-2">Hello! I'm Justus, a CS and Finance student at UWaterloo. This is my personal website where you can learn more about me, my projects, work experience, and how to contact me.</p>
           <p className="mb-2">Feel free to explore the different sections using the navigation bar above.</p>
@@ -50,7 +50,7 @@ function App() {
           <p className="mb-2">As if a sign from god, I saw an Instagram Reel about the old internet and the Frutiger Aero design style, and it took me back to a better time.</p>
           <p className="mb-2">The first computer I ever used ran Windows 7 and that was what introduced me to the world of computing, so we can think of this website as a tribute to that old thing. </p>
           <p className="mb-2">With that out of the way, here is some technical stuff:</p>
-          <p className="mb-2">This site is built with React and styled with TailwindCSS and the <a href="https://khang-nd.github.io/7.css/#window">7.css</a> library. The icons in the navbar are from <a href="https://frutiger-aero.org/"> frutiger-aero.org</a>.</p>
+          <p className="mb-2">This site is built with React and styled with TailwindCSS and the <a href="https://khang-nd.github.io/7.css/#window">7.css</a> library. The icons in the navbar are from <a href="https://frutiger-aero.org/"> frutiger-aero.org</a>. The cool flaming text on the home page is from <a href="https://cooltext.com"> cooltext.com</a>.</p>
           <p className="mb-2">Thank you for visiting!</p>
         </div>
       default:
